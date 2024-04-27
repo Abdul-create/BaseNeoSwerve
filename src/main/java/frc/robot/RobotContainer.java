@@ -53,6 +53,15 @@ public class RobotContainer
 
     
     //private Limelight blindingDevice;
+/*
+Ultra-sound stuff
+    //Ultrasonic m_rangeFinder = new Ultrasonic(1, 2, 3, 4);
+        //This creates creates an object for each of the 4 ultrasounds in the digital port
+    //double distanceMillimeters = m_rangeFinder.getRangeMM();
+        //converts the distance to millimeters
+    //Shuffleboard.getTab("Sensors").add(m_rangeFinder);
+        //Adds it to shuffleboard
+    */
 
   
 
