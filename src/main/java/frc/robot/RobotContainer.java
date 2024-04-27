@@ -54,7 +54,7 @@ public class RobotContainer
     
     //private Limelight blindingDevice;
 /*
-Ultra-sound stuff
+Ultra-sonic stuff
     Public Class DigitalInput extends DistanceRobot {
 
     //Ultrasonic m_rangeFinder1 = new Ultrasonic(0, 1);
@@ -93,8 +93,11 @@ Ultra-sound stuff
         //converts the distance to inches
 
     //Shuffleboard.getTab("Sensors").add(m_rangeFinder);
+    //Shuffleboard.getTab("Sensors").add(m_rangeFinder);
+    //Shuffleboard.getTab("Sensors").add(m_rangeFinder);
+    //Shuffleboard.getTab("Sensors").add(m_rangeFinder);
 
-        //Sends distance to shuffleboard
+        //Sends the Ultrasonic data to 
 
     */
 
