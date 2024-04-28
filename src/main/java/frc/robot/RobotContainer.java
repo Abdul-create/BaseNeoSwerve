@@ -54,43 +54,56 @@ public class RobotContainer
     
     //private Limelight blindingDevice;
 
-//public class Ultrasonic extends RobotContainer {
+
+public class Robot {
+
 
  //Ultrasonic for 4 digital inputs
 
+ static final int UPingPort1 = 1;
 
-    //private final Ultrasonic m_Ultrasonic = new Ultrasonic(1, 1);
-    //private Ultrasonic m_Ultrasonic1 = new Ultrasonic(2, 2);
-    //private Ultrasonic m_Ultrasonic2 = new Ultrasonic(3, 3);
-    //private Ultrasonic m_Ultrasonic3 = new Ultrasonic(4, 4);
+ static final int UEchoPort1 = 1;
 
-            //This creates an object for each of the 4 Ultrasonics in the digital ports
+ //static final int UPingPort2 = 2;
+ 
+ //static final int UEchoPort2 = 2;
+
+ //static final int UPingPort3 = 3;
+ 
+ //static final int UEchoPort3 = 3;
+
+ //static final int UPingPort4 = 4;
+ 
+ //static final int UEchoPort4 = 4;
+
+
+
+ 
+
+    private final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort1, UEchoPort1); {
+        m_Ultrasonic1.setEnabled(true);
+        m_Ultrasonic1.setAutomaticMode(true);
+            }
+    
+                //Creates an ultrasound object and enables it sets it on auto mode(so you don't have to call it to grab distance)
+
+    //private final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort2, UEchoPort2); {
+        //m_Ultrasonic2.setEnabled(true);
+        //m_Ultrasonic2.setAutomaticMode(true);
+        //}
+
+    //private final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort3, UEchoPort3); {
+        //m_Ultrasonic3.setEnabled(true);
+        //m_Ultrasonic3.setAutomaticMode(true);
+            //}
+
+
+    //private final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort4, UEchoPort4); {
+        //m_Ultrasonic4.setEnabled(true);
+        //m_Ultrasonic4.setAutomaticMode(true);
+           //}
 
     
-    
-   // public void setAutomatic(){
-
-
-
-    //m_Ultrasonic.setAutomaticMode(true);
-    //m_Ultrasonic1.setAutomaticMode(true);
-    //m_Ultrasonic2.setAutomaticMode(true);
-    //m_Ultrasonic3.setAutomaticMode(true);
-
-        // sets Ultrasonics on auto mode(so you don't have to call it to grab distance)
-
-   // }
-
-
-    //public void setEnabled(){
-
-    //m_Ultrasonic.setEnabled(true);
-    //m_Ultrasonic1.setEnabled(true);
-    //m_Ultrasonic2.setEnabled(true);
-    //m_Ultrasonic3.setEnabled(true);
-
-        // enables the Ultrasonics
-   // }
 
     //double distanceMillimeters1 = m_Ultrasonic.getRangeMM();
     //double distanceMillimeters2 = m_Ultrasonic1.getRangeMM();
@@ -112,10 +125,12 @@ public class RobotContainer
     //Shuffleboard.getTab("Sensors").add(m_Ultrasonic1);
     //Shuffleboard.getTab("Sensors").add(m_Ultrasonic2);
     //Shuffleboard.getTab("Sensors").add(m_Ultrasonic3);
+        //}
 
         //Sends the Ultrasonic data to shuffleboard
-//}
-//}
+    }
+
+
 
 
   
