@@ -53,53 +53,70 @@ public class RobotContainer
 
     
     //private Limelight blindingDevice;
-/*
-Ultrasonic for 4 digital inputs
 
-    Public Class DigitalInput extends DistanceRobot {
+//public class Ultrasonic extends RobotContainer {
 
-    //Ultrasonic m_rangeFinder1 = new Ultrasonic(0, 1);
-    //Ultrasonic m_rangeFinder2 = new Ultrasonic(1, 2;
-    //Ultrasonic m_rangeFinder3 = new Ultrasonic(2, 3;
-    //Ultrasonic m_rangeFinder4 = new Ultrasonic(3, 4);
+ //Ultrasonic for 4 digital inputs
 
-            //This creates an object for each of the 4 ultrasounds in the digital port
 
-    m_rangeFinder1.setAutomaticMode(true);
-    m_rangeFinder2.setAutomaticMode(true);
-    m_rangeFinder3.setAutomaticMode(true);
-    m_rangeFinder4.setAutomaticMode(true);
+    //private final Ultrasonic m_Ultrasonic = new Ultrasonic(1, 1);
+    //private Ultrasonic m_Ultrasonic1 = new Ultrasonic(2, 2);
+    //private Ultrasonic m_Ultrasonic2 = new Ultrasonic(3, 3);
+    //private Ultrasonic m_Ultrasonic3 = new Ultrasonic(4, 4);
 
-        // sets Ultrasounds on auto mode(so you don't have to call it to grab distance)
+            //This creates an object for each of the 4 Ultrasonics in the digital ports
 
-    m_rangeFinder1.setEnabled(true);
-    m_rangeFinder2.setEnabled(true);
-    m_rangeFinder3.setEnabled(true);
-    m_rangeFinder4.setEnabled(true);
+    
+    
+   // public void setAutomatic(){
 
-        // enables the Ultrasounds
 
-    //double distanceMillimeters1 = m_rangeFinder1.getRangeMM();
-    //double distanceMillimeters2 = m_rangeFinder2.getRangeMM();
-    //double distanceMillimeters3 = m_rangeFinder3.getRangeMM();
-    //double distanceMillimeters4 = m_rangeFinder4.getRangeMM();
+
+    //m_Ultrasonic.setAutomaticMode(true);
+    //m_Ultrasonic1.setAutomaticMode(true);
+    //m_Ultrasonic2.setAutomaticMode(true);
+    //m_Ultrasonic3.setAutomaticMode(true);
+
+        // sets Ultrasonics on auto mode(so you don't have to call it to grab distance)
+
+   // }
+
+
+    //public void setEnabled(){
+
+    //m_Ultrasonic.setEnabled(true);
+    //m_Ultrasonic1.setEnabled(true);
+    //m_Ultrasonic2.setEnabled(true);
+    //m_Ultrasonic3.setEnabled(true);
+
+        // enables the Ultrasonics
+   // }
+
+    //double distanceMillimeters1 = m_Ultrasonic.getRangeMM();
+    //double distanceMillimeters2 = m_Ultrasonic1.getRangeMM();
+    //double distanceMillimeters3 = m_Ultrasonic2.getRangeMM();
+    //double distanceMillimeters4 = m_Ultrasonic3.getRangeMM();
 
         //converts the distance to millimeters
 
-    //double distanceInches1 = m_rangeFinder1.getRangeInches();
-    //double distanceInches2 = m_rangeFinder2.getRangeInches();
-    //double distanceInches3 = m_rangeFinder3.getRangeInches();
-    //double distanceInches4 = m_rangeFinder4.getRangeInches();
+    //double distanceInches1 = m_Ultrasonic.getRangeInches();
+    //double distanceInches2 = m_Ultrasonic1.getRangeInches();
+    //double distanceInches3 = m_Ultrasonic2.getRangeInches();
+    //double distanceInches4 = m_Ultrasonic3.getRangeInches();
 
         //converts the distance to inches
 
-    //Shuffleboard.getTab("Sensors").add(m_rangeFinder1);
-    //Shuffleboard.getTab("Sensors").add(m_rangeFinder2);
-    //Shuffleboard.getTab("Sensors").add(m_rangeFinder3);
-    //Shuffleboard.getTab("Sensors").add(m_rangeFinder4);
+        //public void Shuffleboard(){
+
+    //Shuffleboard.getTab("Sensors").add(m_Ultrasonic);
+    //Shuffleboard.getTab("Sensors").add(m_Ultrasonic1);
+    //Shuffleboard.getTab("Sensors").add(m_Ultrasonic2);
+    //Shuffleboard.getTab("Sensors").add(m_Ultrasonic3);
 
         //Sends the Ultrasonic data to shuffleboard
-    */
+//}
+//}
+
 
   
 
