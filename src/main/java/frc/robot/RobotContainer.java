@@ -55,7 +55,7 @@ public class RobotContainer
     //private Limelight blindingDevice;
 
 
-public class Robot {
+public class Robot extends TimedRobot{
 
 
  //Ultrasonic for 4 digital inputs
