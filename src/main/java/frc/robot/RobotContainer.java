@@ -58,7 +58,7 @@ public class RobotContainer
 public class Robot extends TimedRobot{
 
 
- //Ultrasonic for 4 digital inputs
+ //Ultrasonic for 2 Analog inputs
 
  static final int UPingPort1 = 1;
 
@@ -68,13 +68,6 @@ public class Robot extends TimedRobot{
  
  //static final int UEchoPort2 = 2;
 
- //static final int UPingPort3 = 3;
- 
- //static final int UEchoPort3 = 3;
-
- //static final int UPingPort4 = 4;
- 
- //static final int UEchoPort4 = 4;
 
 
 
@@ -92,39 +85,23 @@ public class Robot extends TimedRobot{
         //m_Ultrasonic2.setAutomaticMode(true);
         //}
 
-    //private final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort3, UEchoPort3); {
-        //m_Ultrasonic3.setEnabled(true);
-        //m_Ultrasonic3.setAutomaticMode(true);
-            //}
-
-
-    //private final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort4, UEchoPort4); {
-        //m_Ultrasonic4.setEnabled(true);
-        //m_Ultrasonic4.setAutomaticMode(true);
-           //}
-
     
 
     //double distanceMillimeters1 = m_Ultrasonic.getRangeMM();
     //double distanceMillimeters2 = m_Ultrasonic1.getRangeMM();
-    //double distanceMillimeters3 = m_Ultrasonic2.getRangeMM();
-    //double distanceMillimeters4 = m_Ultrasonic3.getRangeMM();
 
         //converts the distance to millimeters
 
     //double distanceInches1 = m_Ultrasonic.getRangeInches();
     //double distanceInches2 = m_Ultrasonic1.getRangeInches();
-    //double distanceInches3 = m_Ultrasonic2.getRangeInches();
-    //double distanceInches4 = m_Ultrasonic3.getRangeInches();
 
         //converts the distance to inches
 
         //public void Shuffleboard(){
 
     //Shuffleboard.getTab("Sensors").add(m_Ultrasonic);
+
     //Shuffleboard.getTab("Sensors").add(m_Ultrasonic1);
-    //Shuffleboard.getTab("Sensors").add(m_Ultrasonic2);
-    //Shuffleboard.getTab("Sensors").add(m_Ultrasonic3);
         //}
 
         //Sends the Ultrasonic data to shuffleboard
