@@ -63,6 +63,7 @@ public class Robot extends TimedRobot{
 
  //Ultrasonic for 2 Analog inputs
 static final int UPingPort1 = 1;
+
 static final int UEchoPort1 = 1;
 
  //static final int UPingPort2 = 2;
@@ -74,17 +75,19 @@ static final int UEchoPort1 = 1;
     public AnalogInput m_Ultrasonic1 = new AnalogInput(UPingPort1, UEchoPort1);
     //AnalogInput m_Ultrasonic1 = new AnalogInput(0)
     //AnalogInput m_Ultrasonic1 = new AnalogInput(0)
-   //public Ultrasonic(int UPingPort1, int UEchoPort1)
- 
+    //public Ultrasonic(int UPingPort1, int UEchoPort1)
 
 
         public void setEnabled(boolean enabling){
-        return boolean enabling = true;
+        return true;
         }
+
         m_Ultrasonic1.setEnabled();
+
         public void setAutomaticMode(boolean enabled){
-        return boolean enabled = true;
+        return true;
          }
+
         m_Ultrasonic1.setAutomaticMode();
     
     
@@ -97,16 +100,17 @@ static final int UEchoPort1 = 1;
         //}
 
     
-        public double getRangeMM(){
-            return
-    }
+       // public double getRangeMM(){
+         //   return
+    //}
     //double distanceMillimeters1 = m_Ultrasonic.getRangeMM();
     //double distanceMillimeters2 = m_Ultrasonic1.getRangeMM();
 
         //converts the distance to millimeters
-        public double getRangeInches(){
-            return
-}
+        
+    //    public double getRangeInches(){
+      //      return
+//}
     //double distanceInches1 = m_Ultrasonic.getRangeInches();
     //double distanceInches2 = m_Ultrasonic1.getRangeInches();
 
