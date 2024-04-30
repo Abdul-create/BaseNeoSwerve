@@ -19,6 +19,9 @@ import frc.robot.subsystems.rollerTest;
 import frc.robot.swerve.Swerve;
 import frc.robot.swerve.command.LockSwerveCommand;
 import frc.robot.swerve.command.TeleopSwerve;
+import edu.wpi.first.wpilibj.TimedRobot;
+import edu.wpi.first.wpilibj.AnalogInput;
+
 
 /**
  * WPILIB:
@@ -59,10 +62,8 @@ public class Robot extends TimedRobot{
 
 
  //Ultrasonic for 2 Analog inputs
-
- static final int UPingPort1 = 1;
-
- static final int UEchoPort1 = 1;
+static final int UPingPort1 = 1;
+static final int UEchoPort1 = 1;
 
  //static final int UPingPort2 = 2;
  
@@ -70,28 +71,42 @@ public class Robot extends TimedRobot{
 
 
 
-
+    public AnalogInput m_Ultrasonic1 = new AnalogInput(UPingPort1, UEchoPort1);
+    //AnalogInput m_Ultrasonic1 = new AnalogInput(0)
+    //AnalogInput m_Ultrasonic1 = new AnalogInput(0)
+   //public Ultrasonic(int UPingPort1, int UEchoPort1)
  
 
-    private final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort1, UEchoPort1); {
-        m_Ultrasonic1.setEnabled(true);
-        m_Ultrasonic1.setAutomaticMode(true);
-            }
+
+        public void setEnabled(boolean enabling){
+        return boolean enabling = true;
+        }
+        m_Ultrasonic1.setEnabled();
+        public void setAutomaticMode(boolean enabled){
+        return boolean enabled = true;
+         }
+        m_Ultrasonic1.setAutomaticMode();
+    
     
                 //Creates an ultrasound object and enables it sets it on auto mode(so you don't have to call it to grab distance)
 
-    //private final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort2, UEchoPort2); {
+        //private static final Ultrasonic m_Ultrasonic1 = new Ultrasonic(UPingPort2, UEchoPort2); {
+
         //m_Ultrasonic2.setEnabled(true);
         //m_Ultrasonic2.setAutomaticMode(true);
         //}
 
     
-
+        public double getRangeMM(){
+            return
+    }
     //double distanceMillimeters1 = m_Ultrasonic.getRangeMM();
     //double distanceMillimeters2 = m_Ultrasonic1.getRangeMM();
 
         //converts the distance to millimeters
-
+        public double getRangeInches(){
+            return
+}
     //double distanceInches1 = m_Ultrasonic.getRangeInches();
     //double distanceInches2 = m_Ultrasonic1.getRangeInches();
 
